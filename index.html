@@ -1,281 +1,265 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ko">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SSF 추천인 코드 Goodcode | 입력 방법과 혜택 안내</title>
-  <meta name="description" content="SSF 추천인 코드 Goodcode 입력 방법과 혜택을 정리한 안내 페이지입니다. SSF 추천인 코드를 간편하게 복사해 활용해보세요." />
-  <meta name="keywords" content="SSF 추천인, SSF 추천인 코드, Goodcode, SSF 코드" />
+  <title>SSF 추천인 코드 Goodcode | SSF 추천인 입력 안내</title>
+  <meta name="description" content="SSF 추천인 코드 Goodcode 입력 방법을 간단하게 정리한 안내 페이지입니다. SSF 추천인 코드를 복사해 편하게 확인해보세요." />
+  <meta name="keywords" content="SSF 추천인, SSF 추천인 코드, Goodcode" />
   <meta name="robots" content="index, follow" />
   <meta name="google-site-verification" content="BtBII3918J1J9BnNiNfjVaPn0QXfIj5xoi1G_8qtFk4" />
   <meta name="naver-site-verification" content="f28f86b7853e4f6704297b86d7def790b41e00e4" />
+  <link rel="canonical" href="https://ssf-recommendation-code-goodcode.vercel.app/" />
+
   <meta property="og:type" content="website" />
   <meta property="og:title" content="SSF 추천인 코드 Goodcode" />
-  <meta property="og:description" content="SSF 추천인 코드 Goodcode 입력 방법과 혜택 안내" />
+  <meta property="og:description" content="SSF 추천인 코드 Goodcode 입력 안내 페이지" />
+  <meta property="og:url" content="https://ssf-recommendation-code-goodcode.vercel.app/" />
   <meta property="og:site_name" content="SSF 추천인 코드 Goodcode" />
+
   <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="SSF 추천인 코드 Goodcode" />
+  <meta name="twitter:description" content="SSF 추천인 코드 Goodcode 입력 안내 페이지" />
+
   <style>
     :root {
-      --bg1: #f6f0ff;
-      --bg2: #fdfbff;
+      --bg1: #f7f3ff;
+      --bg2: #efe7ff;
       --card: #ffffff;
-      --text: #1d1a39;
-      --sub: #6d6790;
-      --line: #e9defa;
-      --accent: #7b52ff;
-      --accent2: #9c7cff;
-      --shadow: 0 20px 50px rgba(90, 61, 165, 0.12);
+      --text: #1f1b2d;
+      --muted: #6f6688;
+      --line: #e6dcff;
+      --accent: #7c4dff;
+      --accent2: #a98bff;
     }
-    * { box-sizing: border-box; }
+
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       margin: 0;
-      font-family: "Pretendard", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+      font-family: "Pretendard", "Noto Sans KR", Arial, sans-serif;
       color: var(--text);
-      background: linear-gradient(135deg, var(--bg1), var(--bg2));
-      line-height: 1.7;
-      word-break: keep-all;
-    }
-    .wrap {
+      background:
+        radial-gradient(circle at top, rgba(169, 139, 255, 0.22), transparent 30%),
+        linear-gradient(180deg, var(--bg1) 0%, #faf8ff 50%, var(--bg2) 100%);
       min-height: 100vh;
       display: flex;
       align-items: center;
       justify-content: center;
-      padding: 32px 16px;
+      padding: 24px;
     }
-    .card {
+
+    .wrap {
       width: 100%;
-      max-width: 840px;
-      background: rgba(255,255,255,0.96);
-      border: 1px solid var(--line);
-      border-radius: 28px;
-      box-shadow: var(--shadow);
-      padding: 28px;
-      backdrop-filter: blur(8px);
+      max-width: 760px;
     }
+
+    .card {
+      background: rgba(255,255,255,0.88);
+      backdrop-filter: blur(8px);
+      border: 1px solid rgba(230,220,255,0.9);
+      border-radius: 28px;
+      box-shadow: 0 18px 60px rgba(84, 54, 156, 0.12);
+      padding: 40px 28px;
+      text-align: center;
+    }
+
     .badge {
       display: inline-block;
-      padding: 8px 14px;
+      padding: 10px 16px;
       border-radius: 999px;
+      background: #f1eaff;
+      color: #6547b8;
       font-size: 14px;
       font-weight: 700;
-      color: var(--accent);
-      background: #f0e9ff;
-      margin-bottom: 14px;
+      margin-bottom: 18px;
     }
+
     h1 {
-      font-size: clamp(32px, 5vw, 48px);
-      line-height: 1.2;
-      margin: 0 0 14px;
+      margin: 0 0 24px;
+      font-size: clamp(30px, 5vw, 44px);
+      line-height: 1.25;
       letter-spacing: -0.02em;
     }
-    .accent { color: var(--accent); }
-    .lead {
-      font-size: 18px;
-      color: var(--sub);
-      margin: 0 0 22px;
+
+    .point {
+      color: var(--accent);
     }
+
     .code-box {
-      display: grid;
-      grid-template-columns: 1fr auto;
+      display: flex;
+      align-items: center;
       gap: 12px;
       padding: 12px;
-      border-radius: 22px;
       border: 1px solid var(--line);
-      background: #faf7ff;
-      margin: 24px 0 18px;
+      background: #faf8ff;
+      border-radius: 20px;
+      max-width: 560px;
+      margin: 0 auto 20px;
     }
-    .code-label {
-      font-size: 14px;
-      color: var(--sub);
-      margin-bottom: 6px;
+
+    .label {
+      flex: 0 0 110px;
+      text-align: left;
+      color: var(--muted);
+      font-size: 15px;
+      padding-left: 8px;
     }
-    .code-value {
-      font-size: clamp(28px, 4vw, 38px);
+
+    .code {
+      flex: 1;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 16px 18px;
+      font-size: 30px;
       font-weight: 800;
-      letter-spacing: -0.03em;
+      letter-spacing: -0.02em;
     }
-    button, .btn {
+
+    .copy-btn {
       border: 0;
       cursor: pointer;
-      text-decoration: none;
+      border-radius: 16px;
+      padding: 16px 22px;
+      min-width: 120px;
+      font-size: 16px;
+      font-weight: 800;
+      color: #fff;
+      background: linear-gradient(135deg, var(--accent2), var(--accent));
+      box-shadow: 0 10px 24px rgba(124, 77, 255, 0.25);
+    }
+
+    .copy-btn:hover {
+      transform: translateY(-1px);
+    }
+
+    .desc {
+      margin: 0 auto 28px;
+      max-width: 520px;
+      color: var(--muted);
+      font-size: 17px;
+      line-height: 1.7;
+    }
+
+    .actions {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .link-btn {
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      border-radius: 18px;
-      padding: 16px 22px;
-      font-weight: 800;
+      min-width: 170px;
+      padding: 14px 22px;
+      border-radius: 16px;
+      text-decoration: none;
       font-size: 16px;
-      transition: transform .15s ease, opacity .15s ease;
+      font-weight: 800;
+      transition: 0.2s ease;
     }
-    button:hover, .btn:hover { transform: translateY(-1px); }
-    .copy-btn {
-      min-width: 150px;
-      color: #fff;
-      background: linear-gradient(135deg, var(--accent), var(--accent2));
-      box-shadow: 0 10px 24px rgba(123, 82, 255, 0.24);
-    }
-    .actions {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px;
-      margin: 18px 0 28px;
-    }
+
     .primary {
+      background: linear-gradient(135deg, var(--accent2), var(--accent));
       color: #fff;
-      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      box-shadow: 0 10px 24px rgba(124, 77, 255, 0.22);
     }
-    .ghost {
-      color: var(--accent);
-      background: #f4eeff;
-      border: 1px solid var(--line);
-    }
-    .notice {
-      font-size: 14px;
-      color: var(--sub);
-      margin: 0 0 28px;
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 16px;
-      margin: 20px 0 28px;
-    }
-    .item {
-      padding: 18px;
-      border-radius: 20px;
-      border: 1px solid var(--line);
+
+    .secondary {
       background: #fff;
-    }
-    .item h2 {
-      font-size: 20px;
-      margin: 0 0 10px;
-    }
-    .item p, .item li {
-      color: var(--sub);
-      margin: 0;
-      font-size: 15px;
-    }
-    ul { margin: 0; padding-left: 18px; }
-    .section {
-      padding: 22px;
-      border-radius: 24px;
       border: 1px solid var(--line);
-      background: linear-gradient(180deg, #fff, #fcfaff);
-      margin-top: 20px;
+      color: var(--text);
     }
-    .section h2 {
-      font-size: 24px;
-      margin: 0 0 12px;
-    }
-    .section p {
-      color: var(--sub);
-      margin: 0 0 12px;
-    }
-    .footer {
+
+    .notice {
+      margin-top: 26px;
+      padding-top: 20px;
       border-top: 1px dashed var(--line);
-      margin-top: 28px;
-      padding-top: 18px;
+      color: #8c84a3;
       font-size: 13px;
-      color: var(--sub);
     }
-    .sr-only {
-      position: absolute;
-      width: 1px;
-      height: 1px;
-      padding: 0;
-      margin: -1px;
-      overflow: hidden;
-      clip: rect(0,0,0,0);
-      white-space: nowrap;
-      border: 0;
-    }
-    @media (max-width: 720px) {
-      .card { padding: 20px; border-radius: 22px; }
-      .grid { grid-template-columns: 1fr; }
-      .code-box { grid-template-columns: 1fr; }
-      .copy-btn { width: 100%; }
-      .actions { flex-direction: column; }
-      .btn { width: 100%; }
+
+    @media (max-width: 640px) {
+      .card {
+        padding: 32px 18px;
+        border-radius: 24px;
+      }
+
+      .code-box {
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      .label {
+        flex: auto;
+        text-align: center;
+        padding-left: 0;
+      }
+
+      .code {
+        font-size: 26px;
+      }
+
+      .copy-btn {
+        width: 100%;
+      }
     }
   </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "SSF 추천인 코드 Goodcode",
+    "url": "https://ssf-recommendation-code-goodcode.vercel.app/",
+    "description": "SSF 추천인 코드 Goodcode 입력 방법을 간단하게 정리한 안내 페이지입니다."
+  }
+  </script>
 </head>
 <body>
-  <div class="wrap">
-    <main class="card">
-      <div class="badge">SSF 추천인 코드 안내</div>
-      <h1>SSF 추천인 코드<br><span class="accent">Goodcode</span></h1>
-      <p class="lead">SSF 추천인 코드를 찾고 있다면 아래 코드를 바로 복사해서 간편하게 활용해보세요. 입력 방법과 참고할 내용을 한 페이지에 정리했습니다.</p>
+  <main class="wrap">
+    <section class="card">
+      <div class="badge">SSF 추천인</div>
+      <h1>SSF 추천인 코드<br><span class="point">Goodcode</span></h1>
 
-      <section class="code-box" aria-labelledby="ref-code-title">
-        <div>
-          <div class="code-label" id="ref-code-title">추천인 코드</div>
-          <div class="code-value" id="referralCode">Goodcode</div>
-        </div>
-        <button class="copy-btn" id="copyBtn" type="button" aria-describedby="copyHelp">복사하기</button>
-      </section>
+      <div class="code-box">
+        <div class="label">추천인 코드</div>
+        <div class="code" id="refCode">Goodcode</div>
+        <button class="copy-btn" onclick="copyCode()">복사하기</button>
+      </div>
 
-      <p class="notice" id="copyHelp">SSF 추천인 코드 입력란이 보일 때 위 코드를 입력하면 됩니다.</p>
+      <p class="desc">
+        SSF 추천인 코드를 찾고 있다면 아래 코드를 그대로 복사해 입력하면 됩니다.
+      </p>
 
       <div class="actions">
-        <a class="btn primary" href="https://www.ssfshop.com" target="_blank" rel="noopener noreferrer">SSF 바로가기</a>
-        <a class="btn ghost" href="#howto">입력 방법 보기</a>
+        <a class="link-btn primary" href="https://www.ssfshop.com/" target="_blank" rel="noopener noreferrer">SSF 바로가기</a>
+        <a class="link-btn secondary" href="https://ssf-recommendation-code-goodcode.vercel.app/">이 페이지 공유</a>
       </div>
 
-      <section class="grid" aria-label="핵심 정보">
-        <article class="item">
-          <h2>SSF 추천인 코드</h2>
-          <p>가입 또는 진행 화면에서 추천인 코드 입력란이 나오면 <strong>Goodcode</strong>를 입력하면 됩니다.</p>
-        </article>
-        <article class="item">
-          <h2>간단한 활용 방법</h2>
-          <ul>
-            <li>SSF 추천인 코드 복사</li>
-            <li>가입 진행 중 입력란 확인</li>
-            <li>코드 입력 후 계속 진행</li>
-          </ul>
-        </article>
-      </section>
-
-      <section class="section" id="howto">
-        <h2>SSF 추천인 입력 방법</h2>
-        <p>SSF 추천인 코드는 어렵지 않게 사용할 수 있습니다. 먼저 위의 추천인 코드를 복사한 뒤, 회원가입 또는 관련 절차를 진행하면서 추천인 코드 입력란이 보이는지 확인하면 됩니다.</p>
-        <p>SSF 추천인 코드를 미리 메모해두면 입력 과정이 더 빠르고 편합니다. 가장 간단한 방법은 이 페이지에서 복사 버튼을 눌러 바로 사용하는 것입니다.</p>
-      </section>
-
-      <section class="section">
-        <h2>SSF 추천인 코드 찾는 분들을 위한 정리</h2>
-        <p>많은 분들이 SSF 추천인, SSF 추천인 코드, Goodcode 같은 표현으로 정보를 찾습니다. 이 페이지는 그런 검색 의도에 맞춰 필요한 내용만 간단하게 확인할 수 있도록 구성했습니다.</p>
-        <p>복잡한 설명보다 바로 쓸 수 있는 추천인 코드를 먼저 확인하고, 이후 입력 방법을 참고하는 흐름이 가장 편합니다.</p>
-      </section>
-
-      <div class="footer">
-        이 페이지는 SSF 추천인 코드 정보를 보기 쉽게 정리한 안내용 페이지입니다.<br/>
-        코드나 진행 방식은 시기에 따라 달라질 수 있으므로 실제 화면에서 한 번 더 확인하세요.
+      <div class="notice">
+        안내용 정리 페이지입니다.
       </div>
-    </main>
-  </div>
+    </section>
+  </main>
 
   <script>
-    const copyBtn = document.getElementById('copyBtn');
-    const code = document.getElementById('referralCode').textContent.trim();
-    copyBtn.addEventListener('click', async () => {
-      try {
-        await navigator.clipboard.writeText(code);
-        const original = copyBtn.textContent;
-        copyBtn.textContent = '복사 완료!';
-        setTimeout(() => copyBtn.textContent = original, 1600);
-      } catch (e) {
-        const temp = document.createElement('textarea');
-        temp.value = code;
-        document.body.appendChild(temp);
-        temp.select();
-        document.execCommand('copy');
-        document.body.removeChild(temp);
-        const original = copyBtn.textContent;
-        copyBtn.textContent = '복사 완료!';
-        setTimeout(() => copyBtn.textContent = original, 1600);
-      }
-    });
+    function copyCode() {
+      const code = document.getElementById("refCode").innerText.trim();
+      navigator.clipboard.writeText(code).then(function() {
+        const btn = document.querySelector(".copy-btn");
+        const original = btn.textContent;
+        btn.textContent = "복사 완료";
+        setTimeout(function() {
+          btn.textContent = original;
+        }, 1500);
+      });
+    }
   </script>
 </body>
 </html>

@@ -1,11 +1,15 @@
 # SSF Referral Code Goodcode
 
-Simple landing page for SSF referral code Goodcode.
+간단한 정적 랜딩 페이지입니다.
 
-## Files
-- `index.html`
-- `robots.txt`
-- `sitemap.xml`
+## 배포 주소
+https://ssf-recommendation-code-goodcode.vercel.app/
 
-## Before deploy
-Replace `https://YOUR-DOMAIN-HERE` in `robots.txt` and `sitemap.xml` with your final domain or Vercel URL.
+## 포함 파일
+- index.html
+- robots.txt
+- sitemap.xml
+
+## 메모
+- 본문은 `SSF 추천인` 키워드 중심으로 구성
+- URL 반영 완료
